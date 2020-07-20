@@ -7,15 +7,9 @@
 
 import React from "react"
 import ReactDOM from "react-dom"
-
-const jsx = (
-  <div>
-    <h1>Hola soy Julian</h1>
-    <p>Soy desarrollador web</p>
-  </div>
-)
+import Badge from "./components/Badge"
 
 const container = document.getElementById("app")
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(jsx, container)
+ReactDOM.render(<Badge />, container)
